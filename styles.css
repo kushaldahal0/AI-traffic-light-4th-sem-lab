@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.light{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    float: right;
+    right: 350px;
+    top: 150px;
+    border-radius: 50%;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.road{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    z-index: 1;
+}
+.checkpoint{
+    background-color: black;
+    height: 50px;
+    width: 10px;
+    margin: auto;
+    z-index: 500;
+}
+.car{
+    position: absolute;
+    height: 40px;
+    background-color: green;
+    width: 100px;
+    z-index: 999;
+    bottom: 25px;
+    margin-left: 0px;
+}
