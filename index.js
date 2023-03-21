@@ -9,7 +9,7 @@ let togglehandler = ()=> {
 };
 
 let change =()=>{
-    setInterval(togglehandler,Math.floor(Math.random()*3 + 3 )*1000);
+    setInterval(togglehandler,Math.floor(Math.random()*4 + 5 )*1000);
 };
 
 let carwid = car.offsetWidth;
