@@ -55,9 +55,14 @@ body{
     position: absolute;
     background-clip: border-box;
     height: 50px;
-    width: 142px;
     width: fit-content;
+    
     z-index: 999;
     bottom: 25px;
     margin-left: 0px;
+}
+@-moz-document url-prefix() {
+    .car{
+        width: 142px;
+    }
 }
